@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang='en'>
+{{>head}}
+<body>
+	<!-- Hero(extended) navbar -->
+	<div class="navbar navbar--extended">
+		<nav class="nav__mobile"></nav>
+		<div class="container">
+			<div class="navbar__inner">
+				<a href="/" class="navbar__logo"><img src="{{{global.img_logo_nav}}}"/></a>
+			</div>
+		</div>
+	</div>
+	<div id="vertex-container">
+		<!-- Hero unit -->
+		<div class="hero" id="hero_section">
+			<div class="hero__overlay hero__overlay--gradient"></div>
+			<div class="hero__mask"></div>
+			<div class="hero__inner">
+				<div class="container">
+					<div class="hero__content">
+						<div class="hero__content__inner" id='navConverter'>
+							<h1 class="hero__title">{{page.hero_section.title}}</h1>
+							<p class="hero__text">{{page.hero_section.subtitle}}</p>
+							<a href="#" class="button button__accent">{{page.hero_section.btn_text}}</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hero__sub">
+			<span id="scrollToNext" class="scroll">
+				<i style="cursor:pointer" class="fas fa-chevron-down"></i>
+			</span>
+		</div>
+		<!-- Steps -->
+		{{#page.section1.show_or_hide}}
+		<div class="steps landing__section" id="section1">
+			<div class="container">
+				<h2>{{page.section1.title}}</h2>
+				<p>{{page.section1.subtitle}}</p>
+			</div>
+			<div class="container">
+				<div class="steps__inner">
+					<div class="step">
+						<div class="step__media">
+							<img src="{{{page.section1.lists.list1.img_list}}}" class="step__image">
+						</div>
+						<h4>{{page.section1.lists.list1.title}}</h4>
+						<p class="step__text">{{page.section1.lists.list1.description}}</p>
+					</div>
+					<div class="step">
+						<div class="step__media">
+							<img src="{{{page.section1.lists.list2.img_list}}}" class="step__image">
+						</div>
+						<h4>{{page.section1.lists.list2.title}}</h4>
+						<p class="step__text">{{page.section1.lists.list2.description}}</p>
+					</div>
+					<div class="step">
+						<div class="step__media">
+							<img src="{{{page.section1.lists.list3.img_list}}}" class="step__image">
+						</div>
+						<h4>{{page.section1.lists.list3.title}}</h4>
+						<p class="step__text">{{page.section1.lists.list3.description}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{/page.section1.show_or_hide}}
+		
+		<!-- Expanded sections -->
+		{{#page.section2.show_or_hide}}
+		<div class="expanded landing__section" id="section2">
+			<div class="container">
+				<div class="expanded__inner">
+					<div class="expanded__media">
+						<img src="{{{page.section2.img_section}}}" class="expanded__image">
+					</div>
+					<div class="expanded__content">
+						<h2 class="expanded__title">{{page.section2.title}}</h2>
+						<p class="expanded__text">{{page.section2.subtitle}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{/page.section2.show_or_hide}}
+
+		{{#page.section3.show_or_hide}}
+		<div class="expanded landing__section" id="section3">
+			<div class="container">
+				<div class="expanded__inner">
+					<div class="expanded__media">
+						<img src="{{{page.section3.img_section}}}" class="expanded__image">
+					</div>
+					<div class="expanded__content">
+						<h2 class="expanded__title">{{page.section3.title}}</h2>
+						<p class="expanded__text">{{page.section3.subtitle}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{/page.section3.show_or_hide}}
+
+		{{#page.section4.show_or_hide}}
+		<div class="expanded landing__section" id="section4">
+			<div class="container">
+				<div class="expanded__inner">
+					<div class="expanded__media">
+						<img src="{{{page.section4.img_section}}}" class="expanded__image">
+					</div>
+					<div class="expanded__content">
+						<h2 class="expanded__title">{{page.section4.title}}</h2>
+						<p class="expanded__text">{{page.section4.subtitle}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{/page.section4.show_or_hide}}
+
+		<!-- Register -->
+		<div class="cta cta--reverse" id="register">
+			<div class="container">
+				<div class="auth__inner">
+					<div class="auth__auth">
+						<h1 class="auth__title">{{global.register.title}}</h1>
+						<p>{{global.register.subtitle}}</p>
+						<form id="edd_register_form" class="edd_form" action="" method="post">
+							<label>First name</label>
+							<input type="text" name="firstname" id="edd-user-firstName" placeholder="Elizabeth">
+
+							<label>Last name</label>
+							<input type="text" name="lastname" id="edd-user-lastName" placeholder="Northington">
+
+							<label>Email</label>
+							<input type="text" name="email" id="edd-user-email" placeholder="you@example.com">
+							
+							<button id="btn-register" class="button button__accent">{{global.register.button_text}}</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{>footer}}
+	</div>
+
+	<script>
+        window.__PRELOADED__ = {{{preloaded}}}
+    </script>
+
+	<!-- Vertex library for enabling site updates from https://www.vertex360.co -->
+    <script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/vertex.min.js"></script>
+
+    {{>scripts}}
+</body>
+</html>

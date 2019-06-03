@@ -1,0 +1,47 @@
+{
+    "hero_section": {
+        "title": "A production-ready theme for your projects",
+        "subtitle": "Evie is an MIT licensed template bundled with a minimal style guide to build websites faster. It is extemely lightweight, customizable and works perfectly on modern browsers.",
+        "btn_text": "Download Evie"
+    },
+    "section1": {
+        "title": "Who can use Evie?",
+        "subtitle": "Here's who we can think of, but surely creative people will surprise us.",
+        "lists": {
+            "list1": {
+                "img_list": "https://lh3.googleusercontent.com/v2jmmcuyEqklK1GMIvtIM-SCX1gQR0BrJlvDS-ZClQlfH1qhU8juVNSB4ZR5lsC5vmE0SFMmVf81wehv_jYCw41XvA",
+                "title": "Programmers",
+                "description": "A landing page for your open source projects. Present your solution, easily create docs."
+            },
+            "list2": {
+                "img_list": "https://lh3.googleusercontent.com/JOwAB4WJvM7ghHNUwTRCMi7BAty_k6IXNSIKZ9a8-cIVqixaFb_rykYhfVyECA04isXU6UaWSJphQJ3MdZYn2H4qa8s",
+                "title": "Designers",
+                "description": "A website for your own freebies. Let the world download and use your artwork."
+            },
+            "list3": {
+                "img_list": "https://lh3.googleusercontent.com/be2nQuBPuYuWapGBZBbxY2aIT2ir9RbuswSLPHP1FpzLsPrj0KXqHGYssF3LvfJwAfn5n4C8bRpk7lclyls45IacUI0",
+                "title": "Makers",
+                "description": "A great starting point for your web application. Focus on your idea and execution."
+            }
+        },
+        "show_or_hide": true
+    },
+    "section2": {
+        "title": "Natural styling with almost nothing to learn",
+        "subtitle": "Evie brings you the pages you'll need and the structure to create your own, without a learning curve. It is minimal and mostly styles plain elements. There are only a few classes you'll need to know but nothing to disrupt your preferred coding style.",
+        "img_section": "https://lh3.googleusercontent.com/PaL-SBHNc4cMWt9ydBoDjciOu3L-Dfpg2Mm-BfwSMgjPWkvyx0xvPUFIb9gGG6dThYASNsGjQiJSreFhTPSareHOuA",
+        "show_or_hide": true
+    },
+    "section3": {
+        "title": "Framework agnostic. Your front-end setup, your choice.",
+        "subtitle": "Evie has zero dependencies and uses vanilla JavaScript for a few functions with minimal footprint. You can use React, Vue, Angular, jQuery or whatever you prefer.",
+        "img_section": "https://lh3.googleusercontent.com/4SyPKb54O_7kE-0SqV3vBKYgQrljh3hdK7JLieHc9XTnp3bja61gXYC09ud4QfJmG0jprBmsdQSAIKvbUjaFzmyfEA",
+        "show_or_hide": true
+    },
+    "section4": {
+        "title": "Ready for production or rapid prototyping",
+        "subtitle": "Landing, authentication and a few other pages to select from, despite the small size. Tested on production at unDraw with amazing speeds and unopinionated on how to structure your project. We really hope you'll find it awesome and useful!",
+        "img_section": "https://lh3.googleusercontent.com/MwoGtkHfgaTbtn1rgyyP3EJuivGP2hPECJWWM88OTiRqveMUp4_YEbscW93uH92hNbmxgwR-ha03MW0zqXgSQlct",
+        "show_or_hide": true
+    }
+}

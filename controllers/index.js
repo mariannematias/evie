@@ -3,7 +3,7 @@ const SubscriberController = require('./SubscriberController')
 
 module.exports = {
 
-	post: PostController,
+	//post: PostController,
 	subscriber: SubscriberController
 
 }

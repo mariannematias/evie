@@ -2,7 +2,8 @@
     "hero_section": {
         "title": "A production-ready theme for your projects",
         "subtitle": "Evie is an MIT licensed template bundled with a minimal style guide to build websites faster. It is extemely lightweight, customizable and works perfectly on modern browsers.",
-        "btn_text": "Download Evie"
+        "btn_text": "Download Evie",
+        "img_bg": "https://lh3.googleusercontent.com/dYpFvKoPeHvHlABVVDG6pzcS5iAsRJCDRZ12Pz6BCHPqgLfZwLBBlPvzj6W396Qj68Ih_dt0cjpQIjnoEY6w7LjHP34"
     },
     "section1": {
         "title": "Who can use Evie?",

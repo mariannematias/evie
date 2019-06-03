@@ -43,6 +43,7 @@ gulp.task('vendor', function(){
             [
                 './public/js/jquery.js',
                 './public/js/app.min.js',
+                './public/js/custom.js',
                 './public/js/subscribers.js'
             ]
         )

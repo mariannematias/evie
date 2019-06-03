@@ -307,7 +307,7 @@ html {
   box-sizing: inherit; }
 
 .invisible {
-  opacity: 0;
+  display: none !important;
   transition: 0.7s; }
 
 .fakefield {

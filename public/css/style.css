@@ -800,7 +800,7 @@ textarea {
 
 /*--- Extended and transparent version ---*/
 .navbar--extended {
-  background-color: #6C63FF; }
+    background-color: rgba(0,0,0,0); }
   .navbar--extended .navbar__inner {
     height: 60px;
     color: #ffffff; }

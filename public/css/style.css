@@ -739,7 +739,7 @@ textarea {
   position: fixed;
   z-index: 100;
   width: 100%;
-  background-color: #6C63FF;
+  background-color: #333c44;
   transition: 0.7s; }
   .navbar--nofixed {
     position: relative;
@@ -800,7 +800,7 @@ textarea {
 
 /*--- Extended and transparent version ---*/
 .navbar--extended {
-  background-color: transparent; }
+  background-color: #6C63FF; }
   .navbar--extended .navbar__inner {
     height: 60px;
     color: #ffffff; }
